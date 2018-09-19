@@ -25,7 +25,7 @@ the Terminal app is a direct descendant of a TeleType printer or TTY.
 * to open your Terminal:
   * Mac OS: launch the "Terminal" application
   * Windows: launch "Windows PowerShell"
-* **Important:** make your terminal *as **tall** as possible*
+* **Important:** make your terminal as **tall** as possible
   * errors are often long and you want to start reading at the very top without scrolling
   * make it look like this:
 
@@ -36,7 +36,7 @@ the Terminal app is a direct descendant of a TeleType printer or TTY.
 
 1. open a terminal
 2. type `node` -- that's you *commanding* the computer to launch *node*
-1. press the `return` key (also called `enter`)
+1. press the <kbd>Return</kbd> key (also called <kbd>Enter</kbd>)
 1. see the `>` prompt
 1. type `1 + 1`
 1. press the `return` key again
@@ -61,7 +61,7 @@ the Terminal app is a direct descendant of a TeleType printer or TTY.
 From inside `node`, if you want to get back to the shell...
 
   * type CONTROL-C twice
-  * or type `.exit` and ENTER
+  * or type `.exit` and <kbd>Enter</kbd>
 
 # Directories
 
@@ -99,7 +99,9 @@ This stands for "print working directory" (not "password").
 
 * when you type `mkdir` ("make directory") it creates a new SUBDIRECTORY inside the current directory
 
-      mkdir code
+```
+mkdir code
+```
 
 # Changing directories
 
@@ -164,7 +166,7 @@ This stands for "print working directory" (not "password").
         console.log("Hello, World!");
 
 5. Save the file
-6. Switch back to the terminal (using ALT-TAB or CMD-TAB or clicking)
+6. Switch back to the terminal (using <kbd>Alt</kbd>-<kbd>Tab</kbd> or <kbd>Cmd</kbd>-<kbd>Tab</kbd> or clicking)
 7. Run this file using `node hello.js`
 
 What happens? Is this what you expected?
@@ -177,13 +179,14 @@ These work in `bash`:
 
 Also:
 
-* use ESC instead of ALT for the above
-* ESC-Backspace (delete previous word)
+* use <kbd>Esc</kbd> instead of <kbd>Alt</kbd> for the above
+* <kbd>Esc</kbd>-<kbd>Backspace</kbd> (delete previous word)
 * up/down arrow (scroll through history)
-* END and HOME (jump to end or beginning of line)
+* <kbd>End</kbd> and <kbd>Home</kbd> (jump to end or beginning of line)
 
 # Next Steps
 
 Want to learn enough command line to be dangerous?
-
 Check out <https://www.learnenough.com/command-line-tutorial> by Michael Hartl (founder of [Tau Day](https://tauday.com/) and all around solid geek).
+
+Want to be a command-line hacker like in War Games? Start with this game: http://overthewire.org/wargames/bandit/ where you use *your real command line* `ssh` tool to connect to sandboxed hosts and infiltrate them.
