@@ -1,11 +1,3 @@
-# git vs GitHub
-
-[git](https://git-scm.com/book/) is a *distributed version control tool* that was built by Linus Torvalds in 2005 to help him manage the Linux Kernel project
-
-[GitHub](https://github.com/) is a *centralized collaboration website* that was [started in 2007](https://www.inc.com/30under30/christine-lagorio/github-pj-hyett-chris-wanstrath-2013.html) by Tom Preston-Werner, Chris Wanstrath and P.J. Hyett
-
-> Does Linus use GitHub? Not much: <https://www.wired.com/2012/05/torvalds-github/>
-
 # Git Typealong
 
 ```
@@ -18,7 +10,7 @@ echo "hello" > hello.txt
 git diff
 git add .
 git status
-git commit -m 'said hello'
+git commit -m "said hello"
 git status
 
 git log
@@ -27,13 +19,13 @@ echo "friend" >> hello.txt
 git diff
 git add .
 git status
-git commit -m 'said friend'
+git commit -m "said friend"
 git status
 
 git log
 ```
 
-# Git Conceptual Model
+# Distributed Git Diagram
 
 ![git conceptual model](git.png)
 

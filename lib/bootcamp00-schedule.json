@@ -1,0 +1,432 @@
+{
+  "description": "This is the week-by-week schedule for the 2018 bootcamp. For the day-by-day breakdown, see [this Google calendar](https://calendar.google.com/calendar/b/1?cid=M2w3Mmc5YWV0cXJsdWgycDhqc2lsY2NoZDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ). The high-level plan is: 1. Rudiments (tutorials), 2. Refinement (one-week projects), 3. Reality (multi-week capstone team project)",
+  "mottos": [
+    "There's more than one way to do it",
+    "Make it green, then make it clean",
+    "Docendo discimus (\"By Teaching We Learn\")",
+    "Read the error",
+    "Fail fast",
+    "No magic",
+    "Names hold power (or, Names matter)",
+    "Friction is the enemy of flow",
+    "Zero defects",
+    "If it hurts, do it more",
+    "Get comfortable with being uncomfortable",
+    "Don't repeat yourself (DRY)",
+    "Take a break, take a walk, hug a dog"
+  ],
+  "typical_day": [
+    [
+      " 8:30 am",
+      "orientation, Q & A, paired code review"
+    ],
+    [
+      " 9:00 am",
+      "first lecture: ~30min slides, ~30min labs, ~15min break"
+    ],
+    [
+      "10:15 am",
+      "second lecture: ~30min slides, ~30min labs, ~15min break"
+    ],
+    [
+      "11:30 am",
+      "third lecture: ~30min slides or code review"
+    ],
+    [
+      "12:00 pm",
+      "afternoon project preview & pairing"
+    ],
+    [
+      "12:15 pm",
+      "lunch break"
+    ],
+    [
+      " 1:30 pm",
+      "project/workshop time"
+    ],
+    [
+      " 3:00 pm",
+      "afternoon break"
+    ],
+    [
+      " 3:15 pm",
+      "project/workshop time"
+    ],
+    [
+      " 5:00 pm",
+      "go home!"
+    ]
+  ],
+  "weeks": [
+    {
+      "start": "2018-04-01",
+      "track": "prerequisites",
+      "projects": [
+        "fcc_basic_html",
+        "fcc_basic_css",
+        "what_the_regex"
+      ]
+    },
+    {
+      "start": "2018-06-04",
+      "track": "learn_to_code_with_javascript",
+      "lessons": [
+        "intro",
+        "the_command_line",
+        "hello_node",
+        "values",
+        "strings",
+        "numbers",
+        "variables",
+        "null",
+        "functions",
+        "input_and_output",
+        "logic"
+      ],
+      "projects": [
+        "exercism",
+        "portfolio_page",
+        "guess",
+        "escape_room"
+      ],
+      "side_tracks": [
+        {
+          "track": "git",
+          "lessons": [
+            "git_basics"
+          ],
+          "projects": [
+            "shopping_list"
+          ]
+        },
+        {
+          "track": "agile",
+          "lessons": [
+            "what_is_agile"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "start": "Thursday 1:30 pm",
+          "name": "Escape Room"
+        },
+        {
+          "start": "Friday 4:00 pm",
+          "name": "retrospective"
+        }
+      ]
+    },
+    {
+      "track": "learn_to_code_with_javascript",
+      "lessons": [
+        "loops",
+        "arrays",
+        "argv",
+        "stacks",
+        "hashes",
+        "recursion"
+      ],
+      "projects": [
+        "exercism",
+        "exercism_fork",
+        "rpn_calculator",
+        "zorkington",
+        "tic_tac_toe",
+        {
+          "from": "FreeCodeCamp",
+          "name": "Debugging",
+          "href": "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/debugging/",
+          "optional": true
+        },
+        {
+          "from": "FreeCodeCamp",
+          "name": "Basic Data Structures",
+          "href": "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures"
+        },
+        {
+          "from": "FreeCodeCamp",
+          "name": "Basic Algorithm Scripting",
+          "href": "https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting"
+        }
+      ],
+      "side_tracks": [
+        {
+          "track": "career",
+          "projects": [
+            "portfolio_page"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "start": "10:00 am",
+          "name": "code review"
+        },
+        {
+          "start": "Friday 4:00 pm",
+          "name": "retrospective"
+        }
+      ]
+    },
+    {
+      "track": "www",
+      "projects": [
+        {
+          "from": "FreeCodeCamp",
+          "name": "Basic HTML",
+          "href": "https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5"
+        },
+        {
+          "from": "FreeCodeCamp",
+          "name": "Basic CSS",
+          "href": "https://learn.freecodecamp.org/responsive-web-design/basic-css"
+        },
+        {
+          "from": "FreeCodeCamp",
+          "name": "Applied Visual Design",
+          "href": "https://learn.freecodecamp.org/responsive-web-design/applied-visual-design"
+        },
+        "markdown_preview",
+        "web_text_game"
+      ],
+      "lessons": [
+        "http",
+        "html",
+        "css",
+        "dom_debugging",
+        "dom_scripting"
+      ],
+      "side_tracks": [
+        {
+          "track": "qa"
+        }
+      ],
+      "events": [
+        {
+          "start": "Thursday 9:30am",
+          "name": "Testing"
+        },
+        {
+          "start": "Friday 4:00 pm",
+          "name": "retrospective"
+        }
+      ]
+    },
+    {
+      "track": "responsive_layout",
+      "projects": [
+        "sriracha",
+        "swapathon",
+        "remock",
+        "mint_login",
+        "portfolio_nav"
+      ],
+      "lessons": [
+        "css_layout",
+        "flexbox_layout",
+        "responsive_intro",
+        "css_grid"
+      ],
+      "side_tracks": [
+        {
+          "track": "ux",
+          "lessons": [
+            "mockups"
+          ]
+        },
+        {
+          "track": "agile",
+          "lessons": [
+            "pair_programming"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "start": "Friday 4:00 pm",
+          "name": "retrospective"
+        }
+      ]
+    },
+    {
+      "track": "client_side_coding",
+      "projects": [
+        "yelpington_app",
+        "twitch_status",
+        "pomodoro",
+        {
+          "name": "lightning_talk",
+          "description": "choose a topic for a lightning talk, and sign up for a slot",
+          "required": true
+        }
+      ],
+      "lessons": [
+        "embedding",
+        "ajax",
+        "calling_apis",
+        "geocoding",
+        "geolocation",
+        "interactive_mapping",
+        "jquery",
+        "local_storage"
+      ],
+      "side_tracks": [
+        {
+          "track": "ux",
+          "lessons": [
+            "navigation"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "start": "all day Wednesday",
+          "name": "Holiday: Independence Day"
+        },
+        {
+          "start": "Friday 10:00 am",
+          "name": "lightning talks (round 1)"
+        },
+        {
+          "start": "Friday 4:00 pm",
+          "name": "retrospective"
+        }
+      ]
+    },
+    {
+      "track": "bootstrap",
+      "lessons": [
+        "bootstrap_development",
+        "bootstrap_webpage",
+        "css_frameworks",
+        "/client_side_coding/jquery",
+        "bootstrap_components"
+      ],
+      "projects": [
+        {
+          "from": "FreeCodeCamp",
+          "name": "Bootstrap",
+          "href": "https://learn.freecodecamp.org/front-end-libraries/bootstrap"
+        },
+        "geo_vermonter"
+      ],
+      "side_tracks": [
+      {
+        "track": "career",
+        "lessons": [
+          "lightning_talks"
+        ],
+          "projects": [
+            "lightning_talk"
+          ],
+          "events": [
+            {
+              "start": "Friday 10:00 am",
+              "name": "lightning talks (round 1)"
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "start": "Wednesday 12:30 pm",
+          "name": "L&L: Code for BTV"
+        },
+        {
+          "start": "Friday 4:00 pm",
+          "name": "retrospective"
+        }
+      ]
+    },
+    {
+      "track": "server_side_javascript",
+      "lessons": [
+        "hello_node",
+        "http",
+        "serving_files",
+        "forms_and_parameters",
+        "routing",
+        "cookies",
+        "saving_state_in_files",
+        "sessions",
+        "sessions_with_mongo"
+      ],
+      "projects": [
+        "shortly",
+        "chat_client",
+        "capstone"
+      ],
+      "side_tracks": [
+        {
+          "track": "agile",
+          "lessons": [
+            "inceptions"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "start": "Friday 10:00 am",
+          "name": "lightning talks (round 2)"
+        },
+        {
+          "start": "Friday 4:00 pm",
+          "name": "retrospective"
+        }
+      ]
+    },
+    {
+      "track": "javascript",
+      "lessons": [
+        "oo_js"
+      ],
+      "projects": [
+        "chat_server"
+      ]
+    },
+    {
+      "track": "react",
+      "events": [
+        {
+          "start": "2:00 pm",
+          "name": "capstone inception"
+        },
+        {
+          "start": "Friday 4:00 pm",
+          "name": "retrospective"
+        }
+      ]
+    },
+    {
+      "track": "db",
+      "events": [
+        {
+          "start": "Friday 4:00 pm",
+          "name": "retrospective"
+        }
+      ]
+    },
+    {
+      "track": "projects",
+      "events": [
+        {
+          "start": "Friday 4:00 pm",
+          "name": "retrospective"
+        }
+      ]
+    },
+    {
+      "track": "projects",
+      "projects": [
+        "interview_rotation"
+      ],
+      "events": [
+        {
+          "start": "Friday 4:00 pm",
+          "name": "retrospective"
+        }
+      ]
+    }
+  ]
+}
